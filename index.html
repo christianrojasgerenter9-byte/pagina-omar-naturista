@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Productos naturistas seleccionados por Omar para acompañar tu bienestar diario.">
+  <title>Raíz Viva | Productos naturistas de Omar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Raíz Viva, inicio">
+      <span class="brand-mark">RV</span>
+      <span><strong>Raíz Viva</strong><small>por Omar</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menú</button>
+    <nav id="main-nav">
+      <a href="#productos">Productos</a>
+      <a href="#beneficios">Por qué elegirnos</a>
+      <a href="#omar">Conoce a Omar</a>
+      <a class="nav-cta" href="#contacto">Hacer un pedido</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Bienestar que nace de lo natural</p>
+        <h1>Cuida de ti, <em>desde la raíz.</em></h1>
+        <p class="hero-text">Productos naturistas cuidadosamente seleccionados por Omar para complementar tu rutina y ayudarte a sentirte mejor cada día.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#productos">Ver productos <span>→</span></a>
+          <a class="button button-ghost" href="#omar">Conocer más</a>
+        </div>
+        <div class="trust-row">
+          <span><b>✓</b> Atención personal</span>
+          <span><b>✓</b> Productos seleccionados</span>
+          <span><b>✓</b> Entrega local</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <img src="assets/hero-naturista.png" alt="Selección de productos naturales, hierbas y aceites">
+        <div class="floating-note">
+          <span class="note-icon">✦</span>
+          <p><strong>Recomendación personal</strong>Encuentra el producto ideal para ti</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section" id="productos">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Explora lo natural</p>
+          <h2>Bienestar para cada día</h2>
+        </div>
+        <p>Una selección pensada para acompañar tus hábitos y objetivos de bienestar.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <span class="product-number">01</span>
+          <div class="product-icon">🌿</div>
+          <h3>Suplementos</h3>
+          <p>Vitaminas, minerales y complementos para apoyar tu rutina diaria.</p>
+          <a href="#contacto" data-product="Suplementos">Consultar <span>→</span></a>
+        </article>
+        <article class="product-card reveal">
+          <span class="product-number">02</span>
+          <div class="product-icon">🍵</div>
+          <h3>Tés e infusiones</h3>
+          <p>Mezclas herbales para disfrutar una pausa cálida y reconfortante.</p>
+          <a href="#contacto" data-product="Tés e infusiones">Consultar <span>→</span></a>
+        </article>
+        <article class="product-card reveal">
+          <span class="product-number">03</span>
+          <div class="product-icon">🫧</div>
+          <h3>Cuidado personal</h3>
+          <p>Opciones de origen natural para consentir tu piel y tu cuerpo.</p>
+          <a href="#contacto" data-product="Cuidado personal">Consultar <span>→</span></a>
+        </article>
+        <article class="product-card reveal">
+          <span class="product-number">04</span>
+          <div class="product-icon">🍯</div>
+          <h3>Alimentos naturales</h3>
+          <p>Ingredientes nobles y deliciosos para sumar a tu alimentación.</p>
+          <a href="#contacto" data-product="Alimentos naturales">Consultar <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="promise section" id="beneficios">
+      <div class="promise-card reveal">
+        <p class="eyebrow">La promesa de Omar</p>
+        <h2>Lo natural también se trata de confianza.</h2>
+        <p>No necesitas elegir solo. Omar te escucha, entiende lo que buscas y te orienta entre las opciones disponibles.</p>
+        <div class="promise-points">
+          <span><b>01</b> Trato directo y cercano</span>
+          <span><b>02</b> Información clara</span>
+          <span><b>03</b> Seguimiento a tu pedido</span>
+        </div>
+      </div>
+      <blockquote class="reveal">
+        <span>“</span>
+        <p>Creo que pequeños hábitos conscientes pueden hacer una gran diferencia.</p>
+        <footer>Omar · Tu asesor naturista</footer>
+      </blockquote>
+    </section>
+
+    <section class="about section" id="omar">
+      <div class="about-badge reveal"><span>100%</span> atención humana</div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Conoce a Omar</p>
+        <h2>Una recomendación honesta, antes que una venta.</h2>
+        <p>Omar se dedica a acercar productos naturistas a personas que quieren tomar decisiones más conscientes para su bienestar. Su prioridad es escucharte y ayudarte a encontrar opciones que se adapten a ti.</p>
+        <a class="text-link" href="#contacto">Platica con Omar <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Da el primer paso</p>
+        <h2>¿Qué estás buscando para sentirte mejor?</h2>
+        <p>Cuéntale a Omar qué producto te interesa y recibe atención personal por WhatsApp.</p>
+      </div>
+      <form class="contact-form reveal" id="contact-form">
+        <label>
+          Tu nombre
+          <input type="text" id="name" placeholder="¿Cómo te llamas?" required>
+        </label>
+        <label>
+          Me interesa
+          <select id="interest">
+            <option>Conocer el catálogo</option>
+            <option>Suplementos</option>
+            <option>Tés e infusiones</option>
+            <option>Cuidado personal</option>
+            <option>Alimentos naturales</option>
+          </select>
+        </label>
+        <label>
+          Tu mensaje
+          <textarea id="message" rows="3" placeholder="Cuéntame un poco sobre lo que buscas..."></textarea>
+        </label>
+        <button class="button button-primary" type="submit">Enviar por WhatsApp <span>→</span></button>
+        <small>Al continuar se abrirá WhatsApp. La información presentada no sustituye el consejo de un profesional de la salud.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">RV</span><span><strong>Raíz Viva</strong><small>por Omar</small></span></a>
+    <p>Bienestar natural, atención personal.</p>
+    <p>© <span id="year"></span> Raíz Viva</p>
+  </footer>
+
+  <a class="whatsapp-float" href="#contacto" aria-label="Contactar por WhatsApp">WhatsApp <span>↗</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
